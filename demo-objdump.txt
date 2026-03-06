@@ -1,0 +1,257 @@
+
+rust_wasm_demo_bg.wasm:	file format wasm 0x1
+
+Section Details:
+
+Type[11]:
+ - type[0] (i32, i32) -> i32
+ - type[1] (i32, i32) -> nil
+ - type[2] (i32, i32, i32) -> i32
+ - type[3] (i32) -> nil
+ - type[4] (i32, i32, i32, i32) -> i32
+ - type[5] (i32, i32, i32) -> nil
+ - type[6] (i32) -> i32
+ - type[7] () -> (i32, i32)
+ - type[8] () -> nil
+ - type[9] (i32, i32, i32, i32, i32) -> nil
+ - type[10] (i32, i32) -> (i32, i32)
+Import[1]:
+ - func[0] sig=8 <__wbindgen_start> <- ./rust_wasm_demo_bg.js.__wbindgen_init_externref_table
+Function[52]:
+ - func[1] sig=6
+ - func[2] sig=3
+ - func[3] sig=2
+ - func[4] sig=4
+ - func[5] sig=1
+ - func[6] sig=0
+ - func[7] sig=1
+ - func[8] sig=1
+ - func[9] sig=0
+ - func[10] sig=0
+ - func[11] sig=1
+ - func[12] sig=9
+ - func[13] sig=5
+ - func[14] sig=1
+ - func[15] sig=5
+ - func[16] sig=1
+ - func[17] sig=1
+ - func[18] sig=3
+ - func[19] sig=2
+ - func[20] sig=2
+ - func[21] sig=0
+ - func[22] sig=1
+ - func[23] sig=6 <burn>
+ - func[24] sig=5
+ - func[25] sig=0 <__wbindgen_malloc>
+ - func[26] sig=0
+ - func[27] sig=4
+ - func[28] sig=4 <__wbindgen_realloc>
+ - func[29] sig=10 <greet>
+ - func[30] sig=3
+ - func[31] sig=3
+ - func[32] sig=1
+ - func[33] sig=1
+ - func[34] sig=1
+ - func[35] sig=0
+ - func[36] sig=1
+ - func[37] sig=5 <__wbindgen_free>
+ - func[38] sig=2
+ - func[39] sig=0
+ - func[40] sig=4
+ - func[41] sig=0
+ - func[42] sig=1
+ - func[43] sig=0
+ - func[44] sig=1
+ - func[45] sig=2
+ - func[46] sig=2
+ - func[47] sig=0
+ - func[48] sig=1
+ - func[49] sig=1
+ - func[50] sig=0
+ - func[51] sig=0
+ - func[52] sig=1
+Table[2]:
+ - table[0] type=funcref initial=27 max=27
+ - table[1] type=externref initial=1024
+Memory[1]:
+ - memory[0] pages: initial=17
+Global[1]:
+ - global[0] i32 mutable=1 - init i32=1048576
+Export[8]:
+ - memory[0] -> "memory"
+ - func[29] <greet> -> "greet"
+ - func[23] <burn> -> "burn"
+ - table[1] -> "__wbindgen_externrefs"
+ - func[25] <__wbindgen_malloc> -> "__wbindgen_malloc"
+ - func[28] <__wbindgen_realloc> -> "__wbindgen_realloc"
+ - func[37] <__wbindgen_free> -> "__wbindgen_free"
+ - func[0] <__wbindgen_start> -> "__wbindgen_start"
+Elem[1]:
+ - segment[0] flags=0 table=0 count=26 - init i32=1
+  - elem[1] = ref.func:43
+  - elem[2] = ref.func:17
+  - elem[3] = ref.func:21
+  - elem[4] = ref.func:31
+  - elem[5] = ref.func:19
+  - elem[6] = ref.func:9
+  - elem[7] = ref.func:45
+  - elem[8] = ref.func:30
+  - elem[9] = ref.func:26
+  - elem[10] = ref.func:11
+  - elem[11] = ref.func:14
+  - elem[12] = ref.func:52
+  - elem[13] = ref.func:41
+  - elem[14] = ref.func:22
+  - elem[15] = ref.func:42
+  - elem[16] = ref.func:48
+  - elem[17] = ref.func:32
+  - elem[18] = ref.func:33
+  - elem[19] = ref.func:31
+  - elem[20] = ref.func:20
+  - elem[21] = ref.func:10
+  - elem[22] = ref.func:46
+  - elem[23] = ref.func:50
+  - elem[24] = ref.func:51
+  - elem[25] = ref.func:39
+  - elem[26] = ref.func:43
+DataCount:
+ - data count: 3
+Code[52]:
+ - func[1] size=4813
+ - func[2] size=788
+ - func[3] size=1420
+ - func[4] size=513
+ - func[5] size=527
+ - func[6] size=359
+ - func[7] size=386
+ - func[8] size=324
+ - func[9] size=266
+ - func[10] size=266
+ - func[11] size=250
+ - func[12] size=276
+ - func[13] size=271
+ - func[14] size=156
+ - func[15] size=241
+ - func[16] size=263
+ - func[17] size=28
+ - func[18] size=81
+ - func[19] size=71
+ - func[20] size=71
+ - func[21] size=996
+ - func[22] size=68
+ - func[23] size=67 <burn>
+ - func[24] size=223
+ - func[25] size=38 <__wbindgen_malloc>
+ - func[26] size=62
+ - func[27] size=56
+ - func[28] size=37 <__wbindgen_realloc>
+ - func[29] size=756 <greet>
+ - func[30] size=37
+ - func[31] size=23
+ - func[32] size=31
+ - func[33] size=31
+ - func[34] size=29
+ - func[35] size=21
+ - func[36] size=12
+ - func[37] size=13 <__wbindgen_free>
+ - func[38] size=22
+ - func[39] size=20
+ - func[40] size=868
+ - func[41] size=16
+ - func[42] size=19
+ - func[43] size=16
+ - func[44] size=91
+ - func[45] size=15
+ - func[46] size=15
+ - func[47] size=25
+ - func[48] size=12
+ - func[49] size=61
+ - func[50] size=13
+ - func[51] size=13
+ - func[52] size=9
+Data[3]:
+ - segment[0] memory=0 size=729 - init i32=1048576
+  - 0100000: 2069 6e64 6578 206f 7574 206f 6620 626f   index out of bo
+  - 0100010: 756e 6473 3a20 7468 6520 6c65 6e20 6973  unds: the len is
+  - 0100020: 20c0 1220 6275 7420 7468 6520 696e 6465   .. but the inde
+  - 0100030: 7820 6973 20c0 00c0 023a 20c0 006c 6962  x is ....: ..lib
+  - 0100040: 7261 7279 2f61 6c6c 6f63 2f73 7263 2f66  rary/alloc/src/f
+  - 0100050: 6d74 2e72 7300 6c69 6272 6172 792f 636f  mt.rs.library/co
+  - 0100060: 7265 2f73 7263 2f66 6d74 2f6e 756d 2e72  re/src/fmt/num.r
+  - 0100070: 7300 2f72 6f6f 742f 2e63 6172 676f 2f72  s./root/.cargo/r
+  - 0100080: 6567 6973 7472 792f 7372 632f 696e 6465  egistry/src/inde
+  - 0100090: 782e 6372 6174 6573 2e69 6f2d 3139 3439  x.crates.io-1949
+  - 01000a0: 6366 3863 3662 3562 3535 3766 2f77 6173  cf8c6b5b557f/was
+  - 01000b0: 6d2d 6269 6e64 6765 6e2d 302e 322e 3131  m-bindgen-0.2.11
+  - 01000c0: 342f 7372 632f 6578 7465 726e 7265 662e  4/src/externref.
+  - 01000d0: 7273 006c 6962 7261 7279 2f61 6c6c 6f63  rs.library/alloc
+  - 01000e0: 2f73 7263 2f72 6177 5f76 6563 2f6d 6f64  /src/raw_vec/mod
+  - 01000f0: 2e72 7300 2f72 7573 742f 6465 7073 2f64  .rs./rust/deps/d
+  - 0100100: 6c6d 616c 6c6f 632d 302e 322e 3131 2f73  lmalloc-0.2.11/s
+  - 0100110: 7263 2f64 6c6d 616c 6c6f 632e 7273 006c  rc/dlmalloc.rs.l
+  - 0100120: 6962 7261 7279 2f73 7464 2f73 7263 2f61  ibrary/std/src/a
+  - 0100130: 6c6c 6f63 2e72 7300 156d 656d 6f72 7920  lloc.rs..memory 
+  - 0100140: 616c 6c6f 6361 7469 6f6e 206f 6620 c00d  allocation of ..
+  - 0100150: 2062 7974 6573 2066 6169 6c65 6400 0748   bytes failed..H
+  - 0100160: 656c 6c6f 2c20 c012 2120 2866 726f 6d20  ello, ..! (from 
+  - 0100170: 5275 7374 2f57 6173 6d29 0000 7200 1000  Rust/Wasm)..r...
+  - 0100180: 6000 0000 7f00 0000 1100 0000 7200 1000  `...........r...
+  - 0100190: 6000 0000 8c00 0000 1100 0000 6d5d cbd6  `...........m]..
+  - 01001a0: 2c50 eb63 7841 a657 711b 8bb9 7ca6 02c2  ,P.cxA.Wq...|...
+  - 01001b0: 40d9 fab9 40c6 96a2 64d3 d06b 1f01 1000  @...@...d..k....
+  - 01001c0: 1800 0000 7001 0000 0900 0000 0400 0000  ....p...........
+  - 01001d0: 0c00 0000 0400 0000 0500 0000 0600 0000  ................
+  - 01001e0: 0700 0000 0800 0000 1000 0000 0400 0000  ................
+  - 01001f0: 0900 0000 0a00 0000 0b00 0000 0c00 0000  ................
+  - 0100200: 0000 0000 0800 0000 0400 0000 0d00 0000  ................
+  - 0100210: 0e00 0000 0f00 0000 1000 0000 0000 0000  ................
+  - 0100220: 0800 0000 0400 0000 1100 0000 6173 7365  ............asse
+  - 0100230: 7274 696f 6e20 6661 696c 6564 3a20 7073  rtion failed: ps
+  - 0100240: 697a 6520 3e3d 2073 697a 6520 2b20 6d69  ize >= size + mi
+  - 0100250: 6e5f 6f76 6572 6865 6164 0000 f400 1000  n_overhead......
+  - 0100260: 2a00 0000 b104 0000 0900 0000 6173 7365  *...........asse
+  - 0100270: 7274 696f 6e20 6661 696c 6564 3a20 7073  rtion failed: ps
+  - 0100280: 697a 6520 3c3d 2073 697a 6520 2b20 6d61  ize <= size + ma
+  - 0100290: 785f 6f76 6572 6865 6164 0000 f400 1000  x_overhead......
+  - 01002a0: 2a00 0000 b704 0000 0d00 0000 0400 0000  *...............
+  - 01002b0: 0c00 0000 0400 0000 1200 0000 4572 726f  ............Erro
+  - 01002c0: 7200 0000 1300 0000 0c00 0000 0400 0000  r...............
+  - 01002d0: 1400 0000 1500 0000 16                   .........
+ - segment[1] memory=0 size=388 - init i32=1049316
+  - 01002e4: 0100 0000 1700 0000 6120 666f 726d 6174  ........a format
+  - 01002f4: 7469 6e67 2074 7261 6974 2069 6d70 6c65  ting trait imple
+  - 0100304: 6d65 6e74 6174 696f 6e20 7265 7475 726e  mentation return
+  - 0100314: 6564 2061 6e20 6572 726f 7220 7768 656e  ed an error when
+  - 0100324: 2074 6865 2075 6e64 6572 6c79 696e 6720   the underlying 
+  - 0100334: 7374 7265 616d 2064 6964 206e 6f74 0000  stream did not..
+  - 0100344: 3d00 1000 1800 0000 8a02 0000 0e00 0000  =...............
+  - 0100354: 6361 7061 6369 7479 206f 7665 7266 6c6f  capacity overflo
+  - 0100364: 7700 0000 d300 1000 2000 0000 1c00 0000  w....... .......
+  - 0100374: 0500 0000 3030 3031 3032 3033 3034 3035  ....000102030405
+  - 0100384: 3036 3037 3038 3039 3130 3131 3132 3133  0607080910111213
+  - 0100394: 3134 3135 3136 3137 3138 3139 3230 3231  1415161718192021
+  - 01003a4: 3232 3233 3234 3235 3236 3237 3238 3239  2223242526272829
+  - 01003b4: 3330 3331 3332 3333 3334 3335 3336 3337  3031323334353637
+  - 01003c4: 3338 3339 3430 3431 3432 3433 3434 3435  3839404142434445
+  - 01003d4: 3436 3437 3438 3439 3530 3531 3532 3533  4647484950515253
+  - 01003e4: 3534 3535 3536 3537 3538 3539 3630 3631  5455565758596061
+  - 01003f4: 3632 3633 3634 3635 3636 3637 3638 3639  6263646566676869
+  - 0100404: 3730 3731 3732 3733 3734 3735 3736 3737  7071727374757677
+  - 0100414: 3738 3739 3830 3831 3832 3833 3834 3835  7879808182838485
+  - 0100424: 3836 3837 3838 3839 3930 3931 3932 3933  8687888990919293
+  - 0100434: 3934 3935 3936 3937 3938 3939 5600 1000  949596979899V...
+  - 0100444: 1b00 0000 5702 0000 0500 0000 5265 6643  ....W.......RefC
+  - 0100454: 656c 6c20 616c 7265 6164 7920 626f 7272  ell already borr
+  - 0100464: 6f77 6564                                owed
+ - segment[2] memory=0 size=1 - init i32=1049712
+  - 0100470: 04                                       .
+Custom:
+ - name: "producers"
+Custom:
+ - name: "target_features"
+  - [+] mutable-globals
+  - [+] nontrapping-fptoint
+  - [+] bulk-memory
+  - [+] sign-ext
+  - [+] reference-types
+  - [+] multivalue

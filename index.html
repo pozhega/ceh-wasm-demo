@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Rust Wasm Local Demo</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        margin: 2rem;
+      }
+      button {
+        padding: 0.6rem 1rem;
+        margin-right: 0.6rem;
+      }
+      pre {
+        background: #f5f5f5;
+        padding: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Rust → WebAssembly → JavaScript (Local)</h1>
+
+    <button id="btnGreet">Test greet()</button>
+    <button id="btnBurn">Run burn() (CPU demo)</button>
+    <button id="btnBurnParallel">Run burn() in parallel (CPU demo)</button>
+
+    <pre id="out">Loading...</pre>
+
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
